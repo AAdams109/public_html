@@ -56,6 +56,8 @@ img{
   text-align: center;
   padding: 20px;
   font-size: 25px;
+  border-style: double;
+  border-color: white;
 }
  /*Makes header*/
 .column {
