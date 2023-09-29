@@ -1,16 +1,20 @@
 body, html{
 	font-family: "sans serif";
 	background-image: url('aurora.jpg');
+	  /* Sets background image */
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
 	font-size: 18px;
 	height: 100%;
+
 }
 a:hover {
   color: #FF69B4;
   font-weight:bold;
+  /*Bolds & Colors Hover Pink */
+
 }
 h1,h2,h3,h4,h5,h6{
 	text-align: center;
@@ -20,11 +24,14 @@ tr:nth-child(even) {
   background-color:gray;
   border-style: none;
   font-size: 18px;
+    /*Makes contrasting zebra border */
 }
 tr:nth-child(odd) {
   background-color: black;
   border-style: none;
   font-size: 18px;
+  /*Makes contrasting zebra border */
+
 }
 .bg {
   /* background image used */
@@ -50,6 +57,7 @@ img{
   padding: 20px;
   font-size: 25px;
 }
+ /*Makes header*/
 .column {
   float: left;
 }
@@ -68,8 +76,12 @@ img{
   font-size: 20px;
   font-weight:bold;
   width: 100%;
+  /*Styles qoute */
+
 }
 .words{
 	color:red;
     font-weight:bold;
+    /*Styles for span*/
+
 }
