@@ -1,0 +1,75 @@
+body, html{
+	font-family: "sans serif";
+	background-image: url('aurora.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	font-size: 18px;
+	height: 100%;
+}
+a:hover {
+  color: #FF69B4;
+  font-weight:bold;
+}
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	font-size: 22px;
+}
+tr:nth-child(even) {
+  background-color:gray;
+  border-style: none;
+  font-size: 18px;
+}
+tr:nth-child(odd) {
+  background-color: black;
+  border-style: none;
+  font-size: 18px;
+}
+.bg {
+  /* background image used */
+  background-image: url("aurora.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+	border: 5px solid #ddd;
+    border-radius: 3px;
+    padding: 1px;
+    width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+.column {
+  float: left;
+}
+.left{
+  width: 33.3%;
+}
+.middle{
+  width: 33.3%
+}
+.right{
+  text-align: center;
+  width: 33.3%;
+}
+.qoute {
+  font-style:italic;
+  font-size: 20px;
+  font-weight:bold;
+  width: 100%;
+}
+.words{
+	color:red;
+    font-weight:bold;
+}
